@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "Chapter.11-Graph Theory/SlimSpan.cpp"
+#include "Chapter.11-Graph Theory/CallingCircles.cpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -15,8 +16,8 @@ int main(int argc, const char * argv[]) {
     remove("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output");
     freopen("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output","w",stdout);
     
-    SlimSpan span;
-    span.getSlimSpan();
+    CallingCircles callCircle;
+    callCircle.getCallingCircles();
     
     return 0;
 }
