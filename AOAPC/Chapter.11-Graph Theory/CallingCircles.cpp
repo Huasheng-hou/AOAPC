@@ -93,9 +93,11 @@ class CallingCircles {
             for (int j = 0; j < m; j ++) {
                 if (fathers[j] == i) {
                     
+                    if (!empty) {
+                        printf(", ");
+                    }
                     if (p.size() > j) {
                         cout << p[j];
-                        printf(", ");
                         empty = false;
                     }
                 }
