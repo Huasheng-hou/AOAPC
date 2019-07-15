@@ -11,6 +11,7 @@
 		181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D0CBA22DB157500733ABA /* SlimSpan.cpp */; };
 		187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */; };
 		18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */; };
+		18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		181D0CC022DB1A9D00733ABA /* output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output; sourceTree = "<group>"; };
 		187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CallingCircles.cpp; sourceTree = "<group>"; };
 		18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Audiophobia.cpp; sourceTree = "<group>"; };
+		18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BugOrFeature.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				181D0CBA22DB157500733ABA /* SlimSpan.cpp */,
 				187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */,
 				18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */,
+				18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */,
 			);
 			path = "Chapter.11-Graph Theory";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */,
 				181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */,
 				18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */,
 				187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */,
