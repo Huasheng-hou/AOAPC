@@ -27,7 +27,9 @@ public: void fixSoftware() {
     
     while (cin >> n >> m && (n > 0 || m > 0)) {
         
+        if (count > 0) printf("\n");
         printf("Product %d\n", ++count);
+        
         
         vector<patch> p;
         int t[m];
@@ -47,6 +49,7 @@ public: void fixSoftware() {
         
         v.push_back((1 << n) - 1 );
         idx[(1 << n) - 1] = 0;
+        w[make_pair(0, 0)] = 0;
         
         int end = -1;
         
@@ -58,70 +61,34 @@ public: void fixSoftware() {
 
                     int f = fixBugs(n, v[k], p[i].second);
                     int index;
+                    int pre = idx[v[k]];
                     
+                    int dp = w[make_pair(0, pre)] + t[i];
                     if (idx.count(f) <= 0) {
 
-                        index = (int)v.size();
+                        index = (int)idx.size();
                         v.push_back(f);
                         idx[f] = index;
                         if (f == 0) end = index;
+                        w[make_pair(0, index)] = dp; // *每次追溯最短距离即可
                     } else {
                         index = idx[f];
+                        int d = w[make_pair(0, index)];
+                        if (dp < d) {   // * 状态转移
+                            w[make_pair(0, index)] = dp;
+                            v.push_back(f); // * 发现新路径后再搜索一遍
+                        }
                     }
-                    w[make_pair(k, index)] = t[i];
                 }
             }
             k++;
         }
         
         if (end == -1) {
-            cout << "Bugs can't be fixed!";
+            cout << "Bugs cannot be fixed.\n";
         } else {
-            searchPath((int)v.size(), end, v, w, m, p, idx);
+            printf("Fastest sequence takes %d seconds.\n", w[make_pair(0, end)]);
         }
-        printf("\n");
-    }
-}
-    
-private: void searchPath(int n, int end, vector<int> v,
-                         map<pair<int, int>, int> w,
-                         int nf, vector<patch> p,
-                         map<int, int> idx) {
-    
-    int vi[n];
-    memset(vi, 0, n * sizeof(int));
-    int d[n];
-    
-    for (int i = 0; i < n; i ++) {
-        
-        if (w.count(make_pair(0, i)) > 0) {
-            d[i] = w[make_pair(0, i)];
-        } else {
-            d[i] = i == 0 ? 0 : INT_MAX;
-        }
-    }
-    
-    for (int i = 0; i < n; i ++) {
-        int x = 0, m = INT_MAX;
-        for (int y = 0; y < n; y ++) {
-            if (!vi[y] && d[y] <= m) {
-                m = d[x = y];
-            }
-        }
-        vi[x] = 1;
-        for (int k = 0; k < nf; k ++) {
-            if (isMatch(nf, v[x], p[k].first)) {
-                
-                int f = fixBugs(nf, v[x], p[k].second);
-                int index = idx[f];
-               
-                int t = w[make_pair(x, index)];
-                d[index] = min(d[index], d[x] + t);
-            }
-        }
-    }
-    if (d[end] < INT_MAX) {
-        printf("%d\n", d[n-1]);
     }
 }
     
@@ -150,7 +117,6 @@ private: int fixBugs(int n, int b, string patch) {
         if (patch[i] == '0') {
             
         } else if (patch[i] == '-') {
-//            if ((b / (1 << (n-i-1))) % 2 != 0) {
             int x = (1 << n) - 1 - (1 << (n - i - 1));
             b = b & x;
         } else {

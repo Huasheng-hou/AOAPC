@@ -11,6 +11,7 @@
 #include "Chapter.11-Graph Theory/CallingCircles.cpp"
 #include "Chapter.11-Graph Theory/Audiophobia.cpp"
 #include "Chapter.11-Graph Theory/BugOrFeature.cpp"
+#include "Chapter.11-Graph Theory/PlugForUnix.cpp"
 
 int main(int argc, const char * argv[]) {
     
