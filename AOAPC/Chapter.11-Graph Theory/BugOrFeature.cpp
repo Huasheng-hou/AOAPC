@@ -17,7 +17,7 @@
 
 using namespace std;
 
-typedef pair<string, string> patch;
+typedef pair<int, int> node;
 
 class BugOrFeature {
     
@@ -25,99 +25,86 @@ public: void fixSoftware() {
     
     int n, m, count = 0;
     
-    while (cin >> n >> m && (n > 0 || m > 0)) {
+    while (scanf("%d%d", &n, &m) && (n > 0 || m > 0)) {
         
-        if (count > 0) printf("\n");
         printf("Product %d\n", ++count);
         
-        
-        vector<patch> p;
         int t[m];
+        
+        char bug [m][n + 1];
+        char patch [m][n + 1];
         
         for (int i = 0; i < m; i ++) {
             
-            int time;
-            string bug, patch;
-            cin >> time >> bug >> patch;
-            p.push_back(make_pair(bug, patch));
-            t[i] = time;
+            scanf("%d%s%s", t + i, bug[i], patch[i]);
         }
         
-        vector<int> v; // 用 int 存储状态
-        map<int, int> idx;
-        map<pair<int, int>, int> w;
+        int dist[1<<n]; // 优化为c数组，存取效率是map的1/4
+        for (int i = 0; i < (1<<n); i++) dist[i] = -1;
+        dist[(1<<n) - 1] = 0;
         
-        v.push_back((1 << n) - 1 );
-        idx[(1 << n) - 1] = 0;
-        w[make_pair(0, 0)] = 0;
+        priority_queue<node, vector<node>, greater<node>> q;
+        q.push(make_pair(0, (1 << n) - 1));
         
         int end = -1;
-        
-        int k = 0;
-        while (k < v.size()) {
+        while (!q.empty()) {
             
-             for (int i = 0; i < m; i ++) {
-                if (isMatch(n, v[k], p[i].first)) {
-
-                    int f = fixBugs(n, v[k], p[i].second);
-                    int index;
-                    int pre = idx[v[k]];
+            pair<int, int> node = q.top();
+            if (node.second == 0) break;
+            q.pop();
+            for (int i = 0; i < m; i ++) {
+                if (isMatch(n, node.second, bug[i])) {
                     
-                    int dp = w[make_pair(0, pre)] + t[i];
-                    if (idx.count(f) <= 0) {
-
-                        index = (int)idx.size();
-                        v.push_back(f);
-                        idx[f] = index;
-                        if (f == 0) end = index;
-                        w[make_pair(0, index)] = dp; // *每次追溯最短距离即可
+                    int f = fixBugs(n, node.second, patch[i]);
+                
+                    int dp = dist[node.second] + t[i];
+                    if (dist[f] == -1) {
+                        
+                        q.push(make_pair(dp, f));
+                        dist[f] = dp; // *每次追溯最短距离即可
                     } else {
-                        index = idx[f];
-                        int d = w[make_pair(0, index)];
-                        if (dp < d) {   // * 状态转移
-                            w[make_pair(0, index)] = dp;
-                            v.push_back(f); // * 发现新路径后再搜索一遍
+                        if (dp < dist[f]) {   // * 状态转移
+                            dist[f] = dp;
+                            q.push(make_pair(dp, f)); // * 发现新路径后再搜索一遍
                         }
                     }
+                    if (f == 0) end = dist[f];
                 }
             }
-            k++;
         }
         
         if (end == -1) {
-            cout << "Bugs cannot be fixed.\n";
+            printf("Bugs cannot be fixed.\n\n");
         } else {
-            printf("Fastest sequence takes %d seconds.\n", w[make_pair(0, end)]);
+            printf("Fastest sequence takes %d seconds.\n\n", end);
         }
     }
 }
     
-private: bool isMatch(int n, int b, string pattern) {
+private: bool isMatch(int n, int b, char * pattern) {
     
+    int t = b;
     for (int i = 0; i < n; i ++) {
-        if (pattern[i] == '0') {
-            continue;
-        } else if (pattern[i] == '-') {
-            if ((b / (1 << (n-i-1))) % 2 == 0) {
-                continue;
+        if (pattern[i] == '-') {
+            if (((t >> (n-i-1)) & 1)) { // 取二进制第bit位，b >> (bit - 1) & 1
+                return false;
             }
         } else if (pattern[i] == '+') {
-            if ((b / (1 << (n-i-1))) % 2 == 1) {
-                continue;
+            if (!((t >> (n-i-1)) & 1)) {
+                return false;
             }
         }
-        return false;
     }
     return true;
 }
     
-private: int fixBugs(int n, int b, string patch) {
+private: int fixBugs(int n, int b, char * patch) {
     
     for (int i = 0; i < n; i ++) {
         if (patch[i] == '0') {
             
         } else if (patch[i] == '-') {
-            int x = (1 << n) - 1 - (1 << (n - i - 1));
+            int x = ~(1 << (n - i - 1));
             b = b & x;
         } else {
             b = b | 1 << (n - i - 1);
