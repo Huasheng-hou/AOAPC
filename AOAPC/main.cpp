@@ -19,18 +19,16 @@ int main(int argc, const char * argv[]) {
     remove("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output");
     freopen("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output","w",stdout);
     
-//    PlugForUnix plug;
-//    plug.maximalPlugins();
-    
     clock_t start,end;
     start = clock();
+    
+    PlugForUnix plug;
+    plug.maximalPlugins();
+    
     //需要测试运行时间的程序段
-    Audiophobia audio;
-    audio.queryPath();
-//    BugOrFeature bug;bug.fixSoftware();
     end = clock();
     
-    cout<<"F1运行时间"<<(double)(end-start)/CLOCKS_PER_SEC<<endl;
+//    cout<<"F1运行时间"<<(double)(end-start)/CLOCKS_PER_SEC<<endl;
     
     return 0;
 }
