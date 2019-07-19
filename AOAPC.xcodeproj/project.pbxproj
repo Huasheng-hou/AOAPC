@@ -10,9 +10,12 @@
 		181D0CB122DB13E900733ABA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D0CB022DB13E900733ABA /* main.cpp */; };
 		181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D0CBA22DB157500733ABA /* SlimSpan.cpp */; };
 		187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */; };
+		18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011022E1594E003E736F /* ColossalFibonacci.cpp */; };
+		18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011222E17263003E736F /* ChooseAndDivide.cpp */; };
 		18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */; };
 		18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */; };
 		18DBEC6E22DE0A3A00F8D326 /* PlugForUnix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */; };
+		18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,9 +37,12 @@
 		181D0CBA22DB157500733ABA /* SlimSpan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SlimSpan.cpp; sourceTree = "<group>"; };
 		181D0CC022DB1A9D00733ABA /* output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output; sourceTree = "<group>"; };
 		187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CallingCircles.cpp; sourceTree = "<group>"; };
+		18BC011022E1594E003E736F /* ColossalFibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColossalFibonacci.cpp; sourceTree = "<group>"; };
+		18BC011222E17263003E736F /* ChooseAndDivide.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChooseAndDivide.cpp; sourceTree = "<group>"; };
 		18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Audiophobia.cpp; sourceTree = "<group>"; };
 		18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BugOrFeature.cpp; sourceTree = "<group>"; };
 		18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlugForUnix.cpp; sourceTree = "<group>"; };
+		18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixDecompress.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		181D0CAF22DB13E900733ABA /* AOAPC */ = {
 			isa = PBXGroup;
 			children = (
+				18BC010F22E15911003E736F /* Chapter.10-Mathematics */,
 				181D0CB822DB13FA00733ABA /* Chapter.11-Graph Theory */,
 				181D0CB722DB13F100733ABA /* Inputs */,
 				181D0CB022DB13E900733ABA /* main.cpp */,
@@ -93,8 +100,18 @@
 				18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */,
 				18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */,
 				18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */,
+				18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */,
 			);
 			path = "Chapter.11-Graph Theory";
+			sourceTree = "<group>";
+		};
+		18BC010F22E15911003E736F /* Chapter.10-Mathematics */ = {
+			isa = PBXGroup;
+			children = (
+				18BC011022E1594E003E736F /* ColossalFibonacci.cpp */,
+				18BC011222E17263003E736F /* ChooseAndDivide.cpp */,
+			);
+			path = "Chapter.10-Mathematics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +173,10 @@
 				18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */,
 				181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */,
 				18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */,
+				18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */,
 				18DBEC6E22DE0A3A00F8D326 /* PlugForUnix.cpp in Sources */,
+				18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */,
+				18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */,
 				187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */,
 				181D0CB122DB13E900733ABA /* main.cpp in Sources */,
 			);

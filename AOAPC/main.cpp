@@ -12,6 +12,7 @@
 #include "Chapter.11-Graph Theory/Audiophobia.cpp"
 #include "Chapter.11-Graph Theory/BugOrFeature.cpp"
 #include "Chapter.11-Graph Theory/PlugForUnix.cpp"
+#include "Chapter.10-Mathematics/ChooseAndDivide.cpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -19,15 +20,16 @@ int main(int argc, const char * argv[]) {
     remove("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output");
     freopen("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output","w",stdout);
     
-    clock_t start,end;
-    start = clock();
+//    clock_t start,end;
+//    start = clock();
     
-    PlugForUnix plug;
-    plug.maximalPlugins();
+//    PlugForUnix plug;
+//    plug.maximalPlugins();
     
-    //需要测试运行时间的程序段
-    end = clock();
+    ChooseAndDivide divice;
+    divice.divide();
     
+//    end = clock();
 //    cout<<"F1运行时间"<<(double)(end-start)/CLOCKS_PER_SEC<<endl;
     
     return 0;
