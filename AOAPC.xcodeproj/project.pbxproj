@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		181D0CB122DB13E900733ABA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D0CB022DB13E900733ABA /* main.cpp */; };
 		181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D0CBA22DB157500733ABA /* SlimSpan.cpp */; };
+		184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */; };
 		187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */; };
 		18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011022E1594E003E736F /* ColossalFibonacci.cpp */; };
 		18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011222E17263003E736F /* ChooseAndDivide.cpp */; };
@@ -36,6 +37,7 @@
 		181D0CB922DB148000733ABA /* input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input; sourceTree = "<group>"; };
 		181D0CBA22DB157500733ABA /* SlimSpan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SlimSpan.cpp; sourceTree = "<group>"; };
 		181D0CC022DB1A9D00733ABA /* output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output; sourceTree = "<group>"; };
+		184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptimalBusRoute.cpp; sourceTree = "<group>"; };
 		187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CallingCircles.cpp; sourceTree = "<group>"; };
 		18BC011022E1594E003E736F /* ColossalFibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColossalFibonacci.cpp; sourceTree = "<group>"; };
 		18BC011222E17263003E736F /* ChooseAndDivide.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChooseAndDivide.cpp; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */,
 				18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */,
 				18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */,
+				184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */,
 			);
 			path = "Chapter.11-Graph Theory";
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */,
 				187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */,
 				181D0CB122DB13E900733ABA /* main.cpp in Sources */,
+				184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,8 @@
 #include "Chapter.11-Graph Theory/CallingCircles.cpp"
 #include "Chapter.11-Graph Theory/Audiophobia.cpp"
 #include "Chapter.11-Graph Theory/BugOrFeature.cpp"
-#include "Chapter.11-Graph Theory/PlugForUnix.cpp"
+//#include "Chapter.11-Graph Theory/PlugForUnix.cpp"
+#include "Chapter.11-Graph Theory/OptimalBusRoute.cpp"
 #include "Chapter.10-Mathematics/ChooseAndDivide.cpp"
 
 int main(int argc, const char * argv[]) {
@@ -26,8 +27,8 @@ int main(int argc, const char * argv[]) {
 //    PlugForUnix plug;
 //    plug.maximalPlugins();
     
-    ChooseAndDivide divice;
-    divice.divide();
+    OptimalBusRoute busRoute;
+    busRoute.optimalRoute();
     
 //    end = clock();
 //    cout<<"F1运行时间"<<(double)(end-start)/CLOCKS_PER_SEC<<endl;

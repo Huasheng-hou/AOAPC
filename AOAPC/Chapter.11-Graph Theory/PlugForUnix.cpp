@@ -41,8 +41,6 @@ public: void maximalPlugins() {
         
         int n, m, k;
         map<string, int> v;
-//        int p;
-//        vector<int> r;
         int p, r;
         
         string recept, plug, name;
