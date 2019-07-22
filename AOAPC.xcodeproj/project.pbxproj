@@ -13,6 +13,7 @@
 		187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */; };
 		18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011022E1594E003E736F /* ColossalFibonacci.cpp */; };
 		18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011222E17263003E736F /* ChooseAndDivide.cpp */; };
+		18D579E922E31DE9009CF914 /* FunnyCarRacing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D579E822E31DE9009CF914 /* FunnyCarRacing.cpp */; };
 		18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */; };
 		18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */; };
 		18DBEC6E22DE0A3A00F8D326 /* PlugForUnix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */; };
@@ -41,6 +42,7 @@
 		187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CallingCircles.cpp; sourceTree = "<group>"; };
 		18BC011022E1594E003E736F /* ColossalFibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColossalFibonacci.cpp; sourceTree = "<group>"; };
 		18BC011222E17263003E736F /* ChooseAndDivide.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChooseAndDivide.cpp; sourceTree = "<group>"; };
+		18D579E822E31DE9009CF914 /* FunnyCarRacing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FunnyCarRacing.cpp; sourceTree = "<group>"; };
 		18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Audiophobia.cpp; sourceTree = "<group>"; };
 		18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BugOrFeature.cpp; sourceTree = "<group>"; };
 		18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlugForUnix.cpp; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */,
 				18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */,
 				184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */,
+				18D579E822E31DE9009CF914 /* FunnyCarRacing.cpp */,
 			);
 			path = "Chapter.11-Graph Theory";
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D579E922E31DE9009CF914 /* FunnyCarRacing.cpp in Sources */,
 				18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */,
 				181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */,
 				18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */,

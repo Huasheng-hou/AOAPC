@@ -37,13 +37,13 @@ static long long cost;
 
 class OptimalBusRoute {
 public: void optimalRoute() {
-
+    
     int n;
     while (cin >> n && n > 0) {
         
         int to, w;
         for (int i = 0; i < n; i ++) {
-
+            
             addEdge(s, i + t + 1, 1, 0);
             addEdge(i + t + 1 + n, t, 1, 0);
             cin >> to;
@@ -54,15 +54,16 @@ public: void optimalRoute() {
                 addEdge(i + t + 1, tmp + t + n, 1, w);
             }
         }
-
+        
         flow = 0;
         cost = 0;
         while (BellmanFord());
         
         if (flow < n) {
             cout << "N" << "\n";
+        } else {
+            cout << cost << "\n";
         }
-        cout << cost << "\n";
         
         e.clear();for (int i = 0; i < 101; i ++) G[i].clear();
     }

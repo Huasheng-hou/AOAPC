@@ -10,9 +10,10 @@
 #include "Chapter.11-Graph Theory/SlimSpan.cpp"
 #include "Chapter.11-Graph Theory/CallingCircles.cpp"
 #include "Chapter.11-Graph Theory/Audiophobia.cpp"
-#include "Chapter.11-Graph Theory/BugOrFeature.cpp"
+//#include "Chapter.11-Graph Theory/BugOrFeature.cpp"
 //#include "Chapter.11-Graph Theory/PlugForUnix.cpp"
-#include "Chapter.11-Graph Theory/OptimalBusRoute.cpp"
+//#include "Chapter.11-Graph Theory/OptimalBusRoute.cpp"
+#include "Chapter.11-Graph Theory/FunnyCarRacing.cpp"
 #include "Chapter.10-Mathematics/ChooseAndDivide.cpp"
 
 int main(int argc, const char * argv[]) {
@@ -21,17 +22,8 @@ int main(int argc, const char * argv[]) {
     remove("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output");
     freopen("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output","w",stdout);
     
-//    clock_t start,end;
-//    start = clock();
-    
-//    PlugForUnix plug;
-//    plug.maximalPlugins();
-    
-    OptimalBusRoute busRoute;
-    busRoute.optimalRoute();
-    
-//    end = clock();
-//    cout<<"F1运行时间"<<(double)(end-start)/CLOCKS_PER_SEC<<endl;
+    FunnyCarRacing funnyCar;
+    funnyCar.carRacing();
     
     return 0;
 }
