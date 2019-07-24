@@ -16,6 +16,8 @@
 #include <math.h>
 #include <string.h>
 
+// 二分图匹配 最大流 增广路算法 Edmonds-Karp
+
 using namespace std;
 
 struct Edge {

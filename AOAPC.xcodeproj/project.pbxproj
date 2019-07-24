@@ -20,6 +20,7 @@
 		18B3165C22E6C81800435DEC /* PerfectService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3165B22E6C81800435DEC /* PerfectService.cpp */; };
 		18B3165E22E6D8AE00435DEC /* HaliBula.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3165D22E6D8AE00435DEC /* HaliBula.cpp */; };
 		18B3166022E6ED2000435DEC /* LightingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3165F22E6ED2000435DEC /* LightingSystem.cpp */; };
+		18B3166222E6FA5400435DEC /* Palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3166122E6FA5400435DEC /* Palindrome.cpp */; };
 		18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011022E1594E003E736F /* ColossalFibonacci.cpp */; };
 		18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011222E17263003E736F /* ChooseAndDivide.cpp */; };
 		18D579E922E31DE9009CF914 /* FunnyCarRacing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D579E822E31DE9009CF914 /* FunnyCarRacing.cpp */; };
@@ -58,6 +59,7 @@
 		18B3165B22E6C81800435DEC /* PerfectService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PerfectService.cpp; sourceTree = "<group>"; };
 		18B3165D22E6D8AE00435DEC /* HaliBula.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HaliBula.cpp; sourceTree = "<group>"; };
 		18B3165F22E6ED2000435DEC /* LightingSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LightingSystem.cpp; sourceTree = "<group>"; };
+		18B3166122E6FA5400435DEC /* Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Palindrome.cpp; sourceTree = "<group>"; };
 		18BC011022E1594E003E736F /* ColossalFibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColossalFibonacci.cpp; sourceTree = "<group>"; };
 		18BC011222E17263003E736F /* ChooseAndDivide.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChooseAndDivide.cpp; sourceTree = "<group>"; };
 		18D579E822E31DE9009CF914 /* FunnyCarRacing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FunnyCarRacing.cpp; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				18B3165722E6ABB300435DEC /* UniTSP.cpp */,
 				1897602522E5F13B00886A41 /* JinGeJinQu.cpp */,
 				18B3165F22E6ED2000435DEC /* LightingSystem.cpp */,
+				18B3166122E6FA5400435DEC /* Palindrome.cpp */,
 				18B3165922E6B56800435DEC /* AnotherCrisis.cpp */,
 				18B3165D22E6D8AE00435DEC /* HaliBula.cpp */,
 				18B3165B22E6C81800435DEC /* PerfectService.cpp */,
@@ -223,6 +226,7 @@
 				18DBEC6E22DE0A3A00F8D326 /* PlugForUnix.cpp in Sources */,
 				18B3166022E6ED2000435DEC /* LightingSystem.cpp in Sources */,
 				18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */,
+				18B3166222E6FA5400435DEC /* Palindrome.cpp in Sources */,
 				18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */,
 				187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */,
 				1897602122E5CB1A00886A41 /* BabylonTower.cpp in Sources */,

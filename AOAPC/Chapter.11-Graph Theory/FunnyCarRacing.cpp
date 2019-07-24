@@ -16,6 +16,8 @@
 #include <math.h>
 #include <string.h>
 
+// 单源最短路 Dijkstra
+
 using namespace std;
 
 struct Edge {

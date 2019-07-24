@@ -15,6 +15,8 @@
 #include <utility>
 #include <math.h>
 
+// 有向非负权图 单源固定终点最短路 Dijkstra 算法 priority_queue
+
 using namespace std;
 
 typedef pair<int, int> node;

@@ -16,6 +16,8 @@
 #include <math.h>
 #include <string.h>
 
+// * 线性DP，递推法
+
 using namespace std;
 
 static const int maxn = 1000 + 2;

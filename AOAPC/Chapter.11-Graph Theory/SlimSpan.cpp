@@ -11,6 +11,8 @@
 #include <vector>
 #include <map>
 
+// 最小生成树，Kruskal算法，并查集
+
 using namespace std;
 
 class SlimSpan {

@@ -13,6 +13,8 @@
 #include <map>
 #include <string>
 
+// 有向图中的闭包 Flyod-Warshall 算法，并查集
+
 using namespace std;
 
 class CallingCircles {

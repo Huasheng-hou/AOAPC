@@ -16,6 +16,8 @@
 #include <math.h>
 #include <string.h>
 
+// 二分图最小权完美匹配 最小费用流 Bellman-Ford
+
 using namespace std;
 
 struct Edge {
