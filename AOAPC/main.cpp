@@ -15,7 +15,9 @@
 //#include "Chapter.9-Dynamic Programming/AnotherCrisis.cpp"
 //#include "Chapter.9-Dynamic Programming/HaliBula.cpp"
 //#include "Chapter.9-Dynamic Programming/LightingSystem.cpp"
-#include "Chapter.9-Dynamic Programming/Palindrome.cpp"
+//#include "Chapter.9-Dynamic Programming/Palindrome.cpp"
+//#include "Chapter.9-Dynamic Programming/ColorLength.cpp"
+#include "Chapter.9-Dynamic Programming/CuttingSticks.cpp"
 #include "Chapter.11-Graph Theory/SlimSpan.cpp"
 #include "Chapter.11-Graph Theory/CallingCircles.cpp"
 #include "Chapter.11-Graph Theory/Audiophobia.cpp"
@@ -31,7 +33,7 @@ int main(int argc, const char * argv[]) {
     remove("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output");
     freopen("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output","w",stdout);
     
-    Palindrome palindrome; palindrome.partition();
+    CuttingSticks stick; stick.cut();
     
     return 0;
 }

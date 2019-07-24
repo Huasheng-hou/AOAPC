@@ -27,6 +27,8 @@
 		18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */; };
 		18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */; };
 		18DBEC6E22DE0A3A00F8D326 /* PlugForUnix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */; };
+		18DD6DCB22E85EE8006E7D4A /* ColorLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6DCA22E85EE8006E7D4A /* ColorLength.cpp */; };
+		18DD6DCD22E87BA0006E7D4A /* CuttingSticks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6DCC22E87BA0006E7D4A /* CuttingSticks.cpp */; };
 		18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Audiophobia.cpp; sourceTree = "<group>"; };
 		18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BugOrFeature.cpp; sourceTree = "<group>"; };
 		18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlugForUnix.cpp; sourceTree = "<group>"; };
+		18DD6DCA22E85EE8006E7D4A /* ColorLength.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColorLength.cpp; sourceTree = "<group>"; };
+		18DD6DCC22E87BA0006E7D4A /* CuttingSticks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CuttingSticks.cpp; sourceTree = "<group>"; };
 		18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixDecompress.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +146,8 @@
 				1897602522E5F13B00886A41 /* JinGeJinQu.cpp */,
 				18B3165F22E6ED2000435DEC /* LightingSystem.cpp */,
 				18B3166122E6FA5400435DEC /* Palindrome.cpp */,
+				18DD6DCA22E85EE8006E7D4A /* ColorLength.cpp */,
+				18DD6DCC22E87BA0006E7D4A /* CuttingSticks.cpp */,
 				18B3165922E6B56800435DEC /* AnotherCrisis.cpp */,
 				18B3165D22E6D8AE00435DEC /* HaliBula.cpp */,
 				18B3165B22E6C81800435DEC /* PerfectService.cpp */,
@@ -223,6 +229,7 @@
 				18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */,
 				18B3165C22E6C81800435DEC /* PerfectService.cpp in Sources */,
 				18B3165E22E6D8AE00435DEC /* HaliBula.cpp in Sources */,
+				18DD6DCB22E85EE8006E7D4A /* ColorLength.cpp in Sources */,
 				18DBEC6E22DE0A3A00F8D326 /* PlugForUnix.cpp in Sources */,
 				18B3166022E6ED2000435DEC /* LightingSystem.cpp in Sources */,
 				18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */,
@@ -232,6 +239,7 @@
 				1897602122E5CB1A00886A41 /* BabylonTower.cpp in Sources */,
 				181D0CB122DB13E900733ABA /* main.cpp in Sources */,
 				184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */,
+				18DD6DCD22E87BA0006E7D4A /* CuttingSticks.cpp in Sources */,
 				18B3165822E6ABB300435DEC /* UniTSP.cpp in Sources */,
 				18B3165A22E6B56800435DEC /* AnotherCrisis.cpp in Sources */,
 				1897602622E5F13B00886A41 /* JinGeJinQu.cpp in Sources */,
