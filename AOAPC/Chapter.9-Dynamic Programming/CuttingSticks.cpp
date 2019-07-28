@@ -16,7 +16,8 @@
 #include <math.h>
 #include <string.h>
 
-// * 线性DP，递推法，dp(i,j) = min{dp(i,k)+dp(k,j)}, i<k<j;
+// * 线性DP，状态方程：dp(i,j) = min{dp(i,k)+dp(k,j)}, i<k<j;
+// * 实际求解使用记忆化搜索
 
 using namespace std;
 

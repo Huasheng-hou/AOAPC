@@ -16,6 +16,8 @@
 #include <math.h>
 #include <string.h>
 
+// * 树状结构，按结点分类，递归+记忆化搜索
+
 using namespace std;
 
 static const int maxn = 200 + 2;

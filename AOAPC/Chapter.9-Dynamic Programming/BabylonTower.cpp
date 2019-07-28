@@ -16,6 +16,8 @@
 #include <math.h>
 #include <string.h>
 
+// * 记忆化搜索
+
 using namespace std;
 
 static const int maxn  = 30 + 2;

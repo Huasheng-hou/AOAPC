@@ -16,6 +16,8 @@
 #include <math.h>
 #include <string.h>
 
+// * 树状结构，递归求解
+
 using namespace std;
 
 static const int maxn = 100000 + 2;

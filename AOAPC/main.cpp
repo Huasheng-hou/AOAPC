@@ -19,7 +19,9 @@
 //#include "Chapter.9-Dynamic Programming/ColorLength.cpp"
 //#include "Chapter.9-Dynamic Programming/CuttingSticks.cpp"
 //#include "Chapter.9-Dynamic Programming/BracketsSequence.cpp"
-#include "Chapter.9-Dynamic Programming/Headmaster.cpp"
+//#include "Chapter.9-Dynamic Programming/Headmaster.cpp"
+//#include "Chapter.9-Dynamic Programming/TwentyQuestions.cpp"
+#include "Chapter.9-Dynamic Programming/GreatWall.cpp"
 #include "Chapter.11-Graph Theory/SlimSpan.cpp"
 #include "Chapter.11-Graph Theory/CallingCircles.cpp"
 #include "Chapter.11-Graph Theory/Audiophobia.cpp"
@@ -35,7 +37,7 @@ int main(int argc, const char * argv[]) {
     remove("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output");
     freopen("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output","w",stdout);
     
-    Headmaster master; master.headache();
+    GreatWall wall; wall.fix();
     
     return 0;
 }

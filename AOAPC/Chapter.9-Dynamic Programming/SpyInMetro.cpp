@@ -16,6 +16,8 @@
 #include <math.h>
 #include <string.h>
 
+// * 递推法，从后向前
+
 using namespace std;
 
 class SpyInMetro {

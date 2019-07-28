@@ -13,6 +13,8 @@
 		183B0A4422E9BF5200520CE6 /* BracketsSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183B0A4322E9BF5200520CE6 /* BracketsSequence.cpp */; };
 		184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */; };
 		187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */; };
+		188E4A8E22EDACDC003357B9 /* TwentyQuestions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188E4A8D22EDACDC003357B9 /* TwentyQuestions.cpp */; };
+		188E4A9022EDE019003357B9 /* GreatWall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188E4A8F22EDE019003357B9 /* GreatWall.cpp */; };
 		1897601F22E59ED500886A41 /* SpyInMetro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1897601E22E59ED500886A41 /* SpyInMetro.cpp */; };
 		1897602122E5CB1A00886A41 /* BabylonTower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1897602022E5CB1A00886A41 /* BabylonTower.cpp */; };
 		1897602322E5E17E00886A41 /* Tour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1897602222E5E17E00886A41 /* Tour.cpp */; };
@@ -51,10 +53,11 @@
 		181D0CAD22DB13E900733ABA /* AOAPC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOAPC; sourceTree = BUILT_PRODUCTS_DIR; };
 		181D0CB022DB13E900733ABA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		181D0CBA22DB157500733ABA /* SlimSpan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SlimSpan.cpp; sourceTree = "<group>"; };
-		181D0CC022DB1A9D00733ABA /* output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output; sourceTree = "<group>"; };
 		183B0A4322E9BF5200520CE6 /* BracketsSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BracketsSequence.cpp; sourceTree = "<group>"; };
 		184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptimalBusRoute.cpp; sourceTree = "<group>"; };
 		187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CallingCircles.cpp; sourceTree = "<group>"; };
+		188E4A8D22EDACDC003357B9 /* TwentyQuestions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TwentyQuestions.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.9-Dynamic Programming/TwentyQuestions.cpp"; sourceTree = "<group>"; };
+		188E4A8F22EDE019003357B9 /* GreatWall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GreatWall.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.9-Dynamic Programming/GreatWall.cpp"; sourceTree = "<group>"; };
 		1897601E22E59ED500886A41 /* SpyInMetro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpyInMetro.cpp; sourceTree = "<group>"; };
 		1897602022E5CB1A00886A41 /* BabylonTower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BabylonTower.cpp; sourceTree = "<group>"; };
 		1897602222E5E17E00886A41 /* Tour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tour.cpp; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 		18DD6DCA22E85EE8006E7D4A /* ColorLength.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColorLength.cpp; sourceTree = "<group>"; };
 		18DD6DCC22E87BA0006E7D4A /* CuttingSticks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CuttingSticks.cpp; sourceTree = "<group>"; };
 		18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixDecompress.cpp; sourceTree = "<group>"; };
+		18E493F522EDEFC700C3A0DC /* output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = output; path = ../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Inputs/output; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				1897602422E5E70500886A41 /* input */,
-				181D0CC022DB1A9D00733ABA /* output */,
+				18E493F522EDEFC700C3A0DC /* output */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -157,6 +161,8 @@
 				18B3165D22E6D8AE00435DEC /* HaliBula.cpp */,
 				18B3165B22E6C81800435DEC /* PerfectService.cpp */,
 				1801F40C22EC7ED400075749 /* Headmaster.cpp */,
+				188E4A8D22EDACDC003357B9 /* TwentyQuestions.cpp */,
+				188E4A8F22EDE019003357B9 /* GreatWall.cpp */,
 			);
 			path = "Chapter.9-Dynamic Programming";
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */,
 				183B0A4422E9BF5200520CE6 /* BracketsSequence.cpp in Sources */,
 				1897602322E5E17E00886A41 /* Tour.cpp in Sources */,
+				188E4A9022EDE019003357B9 /* GreatWall.cpp in Sources */,
 				18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */,
 				18B3165C22E6C81800435DEC /* PerfectService.cpp in Sources */,
 				18B3165E22E6D8AE00435DEC /* HaliBula.cpp in Sources */,
@@ -244,6 +251,7 @@
 				18B3166222E6FA5400435DEC /* Palindrome.cpp in Sources */,
 				18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */,
 				187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */,
+				188E4A8E22EDACDC003357B9 /* TwentyQuestions.cpp in Sources */,
 				1897602122E5CB1A00886A41 /* BabylonTower.cpp in Sources */,
 				181D0CB122DB13E900733ABA /* main.cpp in Sources */,
 				184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */,
@@ -372,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
@@ -381,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
