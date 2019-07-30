@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1801F40D22EC7ED400075749 /* Headmaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1801F40C22EC7ED400075749 /* Headmaster.cpp */; };
+		1812FF0F22EF1B6C00B3F277 /* MinimumSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1812FF0E22EF1B6C00B3F277 /* MinimumSum.cpp */; };
 		181D0CB122DB13E900733ABA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D0CB022DB13E900733ABA /* main.cpp */; };
 		181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D0CBA22DB157500733ABA /* SlimSpan.cpp */; };
+		182A4B4E22EEECBB00350967 /* BiggerBetter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182A4B4D22EEECBB00350967 /* BiggerBetter.cpp */; };
 		183B0A4422E9BF5200520CE6 /* BracketsSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183B0A4322E9BF5200520CE6 /* BracketsSequence.cpp */; };
 		184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */; };
 		187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */; };
@@ -50,9 +52,11 @@
 
 /* Begin PBXFileReference section */
 		1801F40C22EC7ED400075749 /* Headmaster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Headmaster.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.9-Dynamic Programming/Headmaster.cpp"; sourceTree = "<group>"; };
+		1812FF0E22EF1B6C00B3F277 /* MinimumSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinimumSum.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/MinimumSum.cpp"; sourceTree = "<group>"; };
 		181D0CAD22DB13E900733ABA /* AOAPC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOAPC; sourceTree = BUILT_PRODUCTS_DIR; };
 		181D0CB022DB13E900733ABA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		181D0CBA22DB157500733ABA /* SlimSpan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SlimSpan.cpp; sourceTree = "<group>"; };
+		182A4B4D22EEECBB00350967 /* BiggerBetter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BiggerBetter.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.9-Dynamic Programming/BiggerBetter.cpp"; sourceTree = "<group>"; };
 		183B0A4322E9BF5200520CE6 /* BracketsSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BracketsSequence.cpp; sourceTree = "<group>"; };
 		184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptimalBusRoute.cpp; sourceTree = "<group>"; };
 		187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CallingCircles.cpp; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 				1801F40C22EC7ED400075749 /* Headmaster.cpp */,
 				188E4A8D22EDACDC003357B9 /* TwentyQuestions.cpp */,
 				188E4A8F22EDE019003357B9 /* GreatWall.cpp */,
+				182A4B4D22EEECBB00350967 /* BiggerBetter.cpp */,
 			);
 			path = "Chapter.9-Dynamic Programming";
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			children = (
 				18BC011022E1594E003E736F /* ColossalFibonacci.cpp */,
 				18BC011222E17263003E736F /* ChooseAndDivide.cpp */,
+				1812FF0E22EF1B6C00B3F277 /* MinimumSum.cpp */,
 			);
 			path = "Chapter.10-Mathematics";
 			sourceTree = "<group>";
@@ -239,9 +245,11 @@
 				181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */,
 				18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */,
 				183B0A4422E9BF5200520CE6 /* BracketsSequence.cpp in Sources */,
+				182A4B4E22EEECBB00350967 /* BiggerBetter.cpp in Sources */,
 				1897602322E5E17E00886A41 /* Tour.cpp in Sources */,
 				188E4A9022EDE019003357B9 /* GreatWall.cpp in Sources */,
 				18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */,
+				1812FF0F22EF1B6C00B3F277 /* MinimumSum.cpp in Sources */,
 				18B3165C22E6C81800435DEC /* PerfectService.cpp in Sources */,
 				18B3165E22E6D8AE00435DEC /* HaliBula.cpp in Sources */,
 				18DD6DCB22E85EE8006E7D4A /* ColorLength.cpp in Sources */,

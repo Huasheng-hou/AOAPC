@@ -16,7 +16,7 @@
 #include <math.h>
 #include <string.h>
 
-// * 递推法，从后向前
+// * 递推法，从后向前，DAG最长路问题
 
 using namespace std;
 
@@ -64,6 +64,7 @@ class SpyInMetro {
                 }
             }
             
+            // * 分支定界法，不可接受的值
             for (int i = 1; i <= n-1; i ++) dp[T][i] = 1<<20;
             dp[T][n] = 0;
             

@@ -16,12 +16,13 @@
 //#include "Chapter.9-Dynamic Programming/HaliBula.cpp"
 //#include "Chapter.9-Dynamic Programming/LightingSystem.cpp"
 //#include "Chapter.9-Dynamic Programming/Palindrome.cpp"
-//#include "Chapter.9-Dynamic Programming/ColorLength.cpp"
+#include "Chapter.9-Dynamic Programming/ColorLength.cpp"
 //#include "Chapter.9-Dynamic Programming/CuttingSticks.cpp"
 //#include "Chapter.9-Dynamic Programming/BracketsSequence.cpp"
 //#include "Chapter.9-Dynamic Programming/Headmaster.cpp"
 //#include "Chapter.9-Dynamic Programming/TwentyQuestions.cpp"
-#include "Chapter.9-Dynamic Programming/GreatWall.cpp"
+//#include "Chapter.9-Dynamic Programming/GreatWall.cpp"
+//#include "Chapter.9-Dynamic Programming/BiggerBetter.cpp"
 #include "Chapter.11-Graph Theory/SlimSpan.cpp"
 #include "Chapter.11-Graph Theory/CallingCircles.cpp"
 #include "Chapter.11-Graph Theory/Audiophobia.cpp"
@@ -30,6 +31,7 @@
 //#include "Chapter.11-Graph Theory/OptimalBusRoute.cpp"
 #include "Chapter.11-Graph Theory/FunnyCarRacing.cpp"
 #include "Chapter.10-Mathematics/ChooseAndDivide.cpp"
+#include "Chapter.10-Mathematics/MinimumSum.cpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -37,7 +39,7 @@ int main(int argc, const char * argv[]) {
     remove("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output");
     freopen("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output","w",stdout);
     
-    GreatWall wall; wall.fix();
+    ColorLength color; color.minLength();
     
     return 0;
 }

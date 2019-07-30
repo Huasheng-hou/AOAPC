@@ -55,7 +55,7 @@ class BabylonTower {
     private: int DP (int i, int j) {
         
         int &ans = dp[i][j];
-        if (ans > 0) return ans;
+        if (ans > 0) return ans; // * 记忆化搜索
         ans = 0;
         for (int m = 1; m <= n; m ++) {
             for (int k = 0; k <= 2; k ++) {
