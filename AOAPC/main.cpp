@@ -16,7 +16,7 @@
 //#include "Chapter.9-Dynamic Programming/HaliBula.cpp"
 //#include "Chapter.9-Dynamic Programming/LightingSystem.cpp"
 //#include "Chapter.9-Dynamic Programming/Palindrome.cpp"
-#include "Chapter.9-Dynamic Programming/ColorLength.cpp"
+//#include "Chapter.9-Dynamic Programming/ColorLength.cpp"
 //#include "Chapter.9-Dynamic Programming/CuttingSticks.cpp"
 //#include "Chapter.9-Dynamic Programming/BracketsSequence.cpp"
 //#include "Chapter.9-Dynamic Programming/Headmaster.cpp"
@@ -30,8 +30,12 @@
 //#include "Chapter.11-Graph Theory/PlugForUnix.cpp"
 //#include "Chapter.11-Graph Theory/OptimalBusRoute.cpp"
 #include "Chapter.11-Graph Theory/FunnyCarRacing.cpp"
+//#include "Chapter.10-Mathematics/ColossalFibonacci.cpp"
+//#include "Chapter.10-Mathematics/DisgruntleJudge.cpp"
 #include "Chapter.10-Mathematics/ChooseAndDivide.cpp"
-#include "Chapter.10-Mathematics/MinimumSum.cpp"
+//#include "Chapter.10-Mathematics/MinimumSum.cpp"
+//#include "Chapter.10-Mathematics/GcdXOR.cpp"
+#include "Chapter.10-Mathematics/IrrelevantElement.cpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -39,7 +43,7 @@ int main(int argc, const char * argv[]) {
     remove("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output");
     freopen("/Users/apple/Develop/AOAPC/AOAPC/Inputs/output","w",stdout);
     
-    ColorLength color; color.minLength();
+    IrrelevantElement element; element.solve();
     
     return 0;
 }

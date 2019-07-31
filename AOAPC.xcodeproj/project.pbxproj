@@ -36,6 +36,9 @@
 		18DD6DCB22E85EE8006E7D4A /* ColorLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6DCA22E85EE8006E7D4A /* ColorLength.cpp */; };
 		18DD6DCD22E87BA0006E7D4A /* CuttingSticks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6DCC22E87BA0006E7D4A /* CuttingSticks.cpp */; };
 		18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */; };
+		18F2535C22F1343000607C2C /* GcdXOR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2535B22F1343000607C2C /* GcdXOR.cpp */; };
+		18F2535E22F1724500607C2C /* DisgruntleJudge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2535D22F1724500607C2C /* DisgruntleJudge.cpp */; };
+		18F2536022F17D9D00607C2C /* IrrelevantElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2535F22F17D9D00607C2C /* IrrelevantElement.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +86,9 @@
 		18DD6DCC22E87BA0006E7D4A /* CuttingSticks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CuttingSticks.cpp; sourceTree = "<group>"; };
 		18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixDecompress.cpp; sourceTree = "<group>"; };
 		18E493F522EDEFC700C3A0DC /* output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = output; path = ../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Inputs/output; sourceTree = "<group>"; };
+		18F2535B22F1343000607C2C /* GcdXOR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GcdXOR.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/GcdXOR.cpp"; sourceTree = "<group>"; };
+		18F2535D22F1724500607C2C /* DisgruntleJudge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DisgruntleJudge.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/DisgruntleJudge.cpp"; sourceTree = "<group>"; };
+		18F2535F22F17D9D00607C2C /* IrrelevantElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = IrrelevantElement.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/IrrelevantElement.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +182,11 @@
 			isa = PBXGroup;
 			children = (
 				18BC011022E1594E003E736F /* ColossalFibonacci.cpp */,
+				18F2535D22F1724500607C2C /* DisgruntleJudge.cpp */,
 				18BC011222E17263003E736F /* ChooseAndDivide.cpp */,
 				1812FF0E22EF1B6C00B3F277 /* MinimumSum.cpp */,
+				18F2535B22F1343000607C2C /* GcdXOR.cpp */,
+				18F2535F22F17D9D00607C2C /* IrrelevantElement.cpp */,
 			);
 			path = "Chapter.10-Mathematics";
 			sourceTree = "<group>";
@@ -246,9 +255,11 @@
 				18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */,
 				183B0A4422E9BF5200520CE6 /* BracketsSequence.cpp in Sources */,
 				182A4B4E22EEECBB00350967 /* BiggerBetter.cpp in Sources */,
+				18F2535E22F1724500607C2C /* DisgruntleJudge.cpp in Sources */,
 				1897602322E5E17E00886A41 /* Tour.cpp in Sources */,
 				188E4A9022EDE019003357B9 /* GreatWall.cpp in Sources */,
 				18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */,
+				18F2536022F17D9D00607C2C /* IrrelevantElement.cpp in Sources */,
 				1812FF0F22EF1B6C00B3F277 /* MinimumSum.cpp in Sources */,
 				18B3165C22E6C81800435DEC /* PerfectService.cpp in Sources */,
 				18B3165E22E6D8AE00435DEC /* HaliBula.cpp in Sources */,
@@ -262,6 +273,7 @@
 				188E4A8E22EDACDC003357B9 /* TwentyQuestions.cpp in Sources */,
 				1897602122E5CB1A00886A41 /* BabylonTower.cpp in Sources */,
 				181D0CB122DB13E900733ABA /* main.cpp in Sources */,
+				18F2535C22F1343000607C2C /* GcdXOR.cpp in Sources */,
 				184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */,
 				18DD6DCD22E87BA0006E7D4A /* CuttingSticks.cpp in Sources */,
 				18B3165822E6ABB300435DEC /* UniTSP.cpp in Sources */,
