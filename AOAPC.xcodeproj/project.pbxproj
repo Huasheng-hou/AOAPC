@@ -14,6 +14,8 @@
 		182A4B4E22EEECBB00350967 /* BiggerBetter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182A4B4D22EEECBB00350967 /* BiggerBetter.cpp */; };
 		183B0A4422E9BF5200520CE6 /* BracketsSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183B0A4322E9BF5200520CE6 /* BracketsSequence.cpp */; };
 		184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */; };
+		18673F1022F294F300893C90 /* Probability.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18673F0F22F294F300893C90 /* Probability.cpp */; };
+		18673F1222F32AB100893C90 /* DoublePatience.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18673F1122F32AB100893C90 /* DoublePatience.cpp */; };
 		187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */; };
 		188E4A8E22EDACDC003357B9 /* TwentyQuestions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188E4A8D22EDACDC003357B9 /* TwentyQuestions.cpp */; };
 		188E4A9022EDE019003357B9 /* GreatWall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188E4A8F22EDE019003357B9 /* GreatWall.cpp */; };
@@ -39,6 +41,9 @@
 		18F2535C22F1343000607C2C /* GcdXOR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2535B22F1343000607C2C /* GcdXOR.cpp */; };
 		18F2535E22F1724500607C2C /* DisgruntleJudge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2535D22F1724500607C2C /* DisgruntleJudge.cpp */; };
 		18F2536022F17D9D00607C2C /* IrrelevantElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2535F22F17D9D00607C2C /* IrrelevantElement.cpp */; };
+		18F2536222F1B5AA00607C2C /* SendTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2536122F1B5AA00607C2C /* SendTable.cpp */; };
+		18F2536422F1CB7D00607C2C /* Password.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2536322F1CB7D00607C2C /* Password.cpp */; };
+		18F2536622F1DD3200607C2C /* Headshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2536522F1DD3200607C2C /* Headshot.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +67,8 @@
 		182A4B4D22EEECBB00350967 /* BiggerBetter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BiggerBetter.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.9-Dynamic Programming/BiggerBetter.cpp"; sourceTree = "<group>"; };
 		183B0A4322E9BF5200520CE6 /* BracketsSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BracketsSequence.cpp; sourceTree = "<group>"; };
 		184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptimalBusRoute.cpp; sourceTree = "<group>"; };
+		18673F0F22F294F300893C90 /* Probability.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Probability.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/Probability.cpp"; sourceTree = "<group>"; };
+		18673F1122F32AB100893C90 /* DoublePatience.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DoublePatience.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/DoublePatience.cpp"; sourceTree = "<group>"; };
 		187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CallingCircles.cpp; sourceTree = "<group>"; };
 		188E4A8D22EDACDC003357B9 /* TwentyQuestions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TwentyQuestions.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.9-Dynamic Programming/TwentyQuestions.cpp"; sourceTree = "<group>"; };
 		188E4A8F22EDE019003357B9 /* GreatWall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GreatWall.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.9-Dynamic Programming/GreatWall.cpp"; sourceTree = "<group>"; };
@@ -89,6 +96,9 @@
 		18F2535B22F1343000607C2C /* GcdXOR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GcdXOR.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/GcdXOR.cpp"; sourceTree = "<group>"; };
 		18F2535D22F1724500607C2C /* DisgruntleJudge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DisgruntleJudge.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/DisgruntleJudge.cpp"; sourceTree = "<group>"; };
 		18F2535F22F17D9D00607C2C /* IrrelevantElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = IrrelevantElement.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/IrrelevantElement.cpp"; sourceTree = "<group>"; };
+		18F2536122F1B5AA00607C2C /* SendTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SendTable.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/SendTable.cpp"; sourceTree = "<group>"; };
+		18F2536322F1CB7D00607C2C /* Password.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Password.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/Password.cpp"; sourceTree = "<group>"; };
+		18F2536522F1DD3200607C2C /* Headshot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Headshot.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/Headshot.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +197,11 @@
 				1812FF0E22EF1B6C00B3F277 /* MinimumSum.cpp */,
 				18F2535B22F1343000607C2C /* GcdXOR.cpp */,
 				18F2535F22F17D9D00607C2C /* IrrelevantElement.cpp */,
+				18F2536122F1B5AA00607C2C /* SendTable.cpp */,
+				18F2536322F1CB7D00607C2C /* Password.cpp */,
+				18F2536522F1DD3200607C2C /* Headshot.cpp */,
+				18673F0F22F294F300893C90 /* Probability.cpp */,
+				18673F1122F32AB100893C90 /* DoublePatience.cpp */,
 			);
 			path = "Chapter.10-Mathematics";
 			sourceTree = "<group>";
@@ -248,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D579E922E31DE9009CF914 /* FunnyCarRacing.cpp in Sources */,
+				18673F1022F294F300893C90 /* Probability.cpp in Sources */,
 				1801F40D22EC7ED400075749 /* Headmaster.cpp in Sources */,
 				1897601F22E59ED500886A41 /* SpyInMetro.cpp in Sources */,
 				18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */,
@@ -269,6 +285,8 @@
 				18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */,
 				18B3166222E6FA5400435DEC /* Palindrome.cpp in Sources */,
 				18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */,
+				18F2536422F1CB7D00607C2C /* Password.cpp in Sources */,
+				18F2536622F1DD3200607C2C /* Headshot.cpp in Sources */,
 				187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */,
 				188E4A8E22EDACDC003357B9 /* TwentyQuestions.cpp in Sources */,
 				1897602122E5CB1A00886A41 /* BabylonTower.cpp in Sources */,
@@ -278,7 +296,9 @@
 				18DD6DCD22E87BA0006E7D4A /* CuttingSticks.cpp in Sources */,
 				18B3165822E6ABB300435DEC /* UniTSP.cpp in Sources */,
 				18B3165A22E6B56800435DEC /* AnotherCrisis.cpp in Sources */,
+				18F2536222F1B5AA00607C2C /* SendTable.cpp in Sources */,
 				1897602622E5F13B00886A41 /* JinGeJinQu.cpp in Sources */,
+				18673F1222F32AB100893C90 /* DoublePatience.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
