@@ -18,6 +18,7 @@
 		186FF6A522F8284700ED582C /* WaterBallon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186FF6A422F8284700ED582C /* WaterBallon.cpp */; };
 		186FF6A722F8501B00ED582C /* Bookcase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186FF6A622F8501B00ED582C /* Bookcase.cpp */; };
 		186FF6AF22F879AE00ED582C /* Snowboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186FF6AE22F879AE00ED582C /* Snowboard.cpp */; };
+		186FF6B122F8869400ED582C /* CakeSlicing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186FF6B022F8869400ED582C /* CakeSlicing.cpp */; };
 		187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */; };
 		1897601F22E59ED500886A41 /* SpyInMetro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1897601E22E59ED500886A41 /* SpyInMetro.cpp */; };
 		1897602122E5CB1A00886A41 /* BabylonTower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1897602022E5CB1A00886A41 /* BabylonTower.cpp */; };
@@ -75,6 +76,7 @@
 		186FF6AC22F8790600ED582C /* TwentyQuestions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwentyQuestions.cpp; sourceTree = "<group>"; };
 		186FF6AD22F8790600ED582C /* GreatWall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreatWall.cpp; sourceTree = "<group>"; };
 		186FF6AE22F879AE00ED582C /* Snowboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Snowboard.cpp; sourceTree = "<group>"; };
+		186FF6B022F8869400ED582C /* CakeSlicing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CakeSlicing.cpp; sourceTree = "<group>"; };
 		187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CallingCircles.cpp; sourceTree = "<group>"; };
 		1897601E22E59ED500886A41 /* SpyInMetro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpyInMetro.cpp; sourceTree = "<group>"; };
 		1897602022E5CB1A00886A41 /* BabylonTower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BabylonTower.cpp; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				186FF6AE22F879AE00ED582C /* Snowboard.cpp */,
+				186FF6B022F8869400ED582C /* CakeSlicing.cpp */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				186FF6A322F7286400ED582C /* Tango.cpp in Sources */,
 				18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */,
 				18F2536022F17D9D00607C2C /* IrrelevantElement.cpp in Sources */,
+				186FF6B122F8869400ED582C /* CakeSlicing.cpp in Sources */,
 				1812FF0F22EF1B6C00B3F277 /* MinimumSum.cpp in Sources */,
 				18B3165C22E6C81800435DEC /* PerfectService.cpp in Sources */,
 				18B3165E22E6D8AE00435DEC /* HaliBula.cpp in Sources */,
