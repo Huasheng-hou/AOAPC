@@ -7,44 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1812FF0F22EF1B6C00B3F277 /* MinimumSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1812FF0E22EF1B6C00B3F277 /* MinimumSum.cpp */; };
-		181D0CB122DB13E900733ABA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D0CB022DB13E900733ABA /* main.cpp */; };
-		181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D0CBA22DB157500733ABA /* SlimSpan.cpp */; };
-		183B0A4422E9BF5200520CE6 /* BracketsSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183B0A4322E9BF5200520CE6 /* BracketsSequence.cpp */; };
-		184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */; };
-		18673F1022F294F300893C90 /* Probability.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18673F0F22F294F300893C90 /* Probability.cpp */; };
-		18673F1222F32AB100893C90 /* DoublePatience.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18673F1122F32AB100893C90 /* DoublePatience.cpp */; };
-		186FF6A322F7286400ED582C /* Tango.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186FF6A222F7286400ED582C /* Tango.cpp */; };
-		186FF6A522F8284700ED582C /* WaterBallon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186FF6A422F8284700ED582C /* WaterBallon.cpp */; };
-		186FF6A722F8501B00ED582C /* Bookcase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186FF6A622F8501B00ED582C /* Bookcase.cpp */; };
-		186FF6AF22F879AE00ED582C /* Snowboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186FF6AE22F879AE00ED582C /* Snowboard.cpp */; };
-		186FF6B122F8869400ED582C /* CakeSlicing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186FF6B022F8869400ED582C /* CakeSlicing.cpp */; };
-		187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */; };
-		1897601F22E59ED500886A41 /* SpyInMetro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1897601E22E59ED500886A41 /* SpyInMetro.cpp */; };
-		1897602122E5CB1A00886A41 /* BabylonTower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1897602022E5CB1A00886A41 /* BabylonTower.cpp */; };
-		1897602322E5E17E00886A41 /* Tour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1897602222E5E17E00886A41 /* Tour.cpp */; };
-		1897602622E5F13B00886A41 /* JinGeJinQu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1897602522E5F13B00886A41 /* JinGeJinQu.cpp */; };
-		18B3165822E6ABB300435DEC /* UniTSP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3165722E6ABB300435DEC /* UniTSP.cpp */; };
-		18B3165A22E6B56800435DEC /* AnotherCrisis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3165922E6B56800435DEC /* AnotherCrisis.cpp */; };
-		18B3165C22E6C81800435DEC /* PerfectService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3165B22E6C81800435DEC /* PerfectService.cpp */; };
-		18B3165E22E6D8AE00435DEC /* HaliBula.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3165D22E6D8AE00435DEC /* HaliBula.cpp */; };
-		18B3166022E6ED2000435DEC /* LightingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3165F22E6ED2000435DEC /* LightingSystem.cpp */; };
-		18B3166222E6FA5400435DEC /* Palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B3166122E6FA5400435DEC /* Palindrome.cpp */; };
-		18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011022E1594E003E736F /* ColossalFibonacci.cpp */; };
-		18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BC011222E17263003E736F /* ChooseAndDivide.cpp */; };
-		18D579E922E31DE9009CF914 /* FunnyCarRacing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D579E822E31DE9009CF914 /* FunnyCarRacing.cpp */; };
-		18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4D22DC674A005C5D60 /* Audiophobia.cpp */; };
-		18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3B4F22DCB5BA005C5D60 /* BugOrFeature.cpp */; };
-		18DBEC6E22DE0A3A00F8D326 /* PlugForUnix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DBEC6D22DE0A3A00F8D326 /* PlugForUnix.cpp */; };
-		18DD6DCB22E85EE8006E7D4A /* ColorLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6DCA22E85EE8006E7D4A /* ColorLength.cpp */; };
-		18DD6DCD22E87BA0006E7D4A /* CuttingSticks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6DCC22E87BA0006E7D4A /* CuttingSticks.cpp */; };
-		18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18E3AB8622E09F3F00A09D90 /* MatrixDecompress.cpp */; };
-		18F2535C22F1343000607C2C /* GcdXOR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2535B22F1343000607C2C /* GcdXOR.cpp */; };
-		18F2535E22F1724500607C2C /* DisgruntleJudge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2535D22F1724500607C2C /* DisgruntleJudge.cpp */; };
-		18F2536022F17D9D00607C2C /* IrrelevantElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2535F22F17D9D00607C2C /* IrrelevantElement.cpp */; };
-		18F2536222F1B5AA00607C2C /* SendTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2536122F1B5AA00607C2C /* SendTable.cpp */; };
-		18F2536422F1CB7D00607C2C /* Password.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2536322F1CB7D00607C2C /* Password.cpp */; };
-		18F2536622F1DD3200607C2C /* Headshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2536522F1DD3200607C2C /* Headshot.cpp */; };
+		1812ECC9233313C90011A4B0 /* uva12657.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1812ECC8233313C90011A4B0 /* uva12657.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,11 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1812ECC8233313C90011A4B0 /* uva12657.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva12657.cpp; sourceTree = "<group>"; };
 		1812FF0E22EF1B6C00B3F277 /* MinimumSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinimumSum.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/MinimumSum.cpp"; sourceTree = "<group>"; };
 		181D0CAD22DB13E900733ABA /* AOAPC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOAPC; sourceTree = BUILT_PRODUCTS_DIR; };
-		181D0CB022DB13E900733ABA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		181D0CBA22DB157500733ABA /* SlimSpan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SlimSpan.cpp; sourceTree = "<group>"; };
 		183B0A4322E9BF5200520CE6 /* BracketsSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BracketsSequence.cpp; sourceTree = "<group>"; };
+		184523F22330C52700F832C1 /* uva210.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva210.cpp; sourceTree = "<group>"; };
 		184F787822E2EEE200057D55 /* OptimalBusRoute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptimalBusRoute.cpp; sourceTree = "<group>"; };
 		18673F0F22F294F300893C90 /* Probability.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Probability.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/Probability.cpp"; sourceTree = "<group>"; };
 		18673F1122F32AB100893C90 /* DoublePatience.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DoublePatience.cpp; path = "../../../../../../System/Volumes/Data/Users/apple/Develop/AOAPC/AOAPC/Chapter.10-Mathematics/DoublePatience.cpp"; sourceTree = "<group>"; };
@@ -77,6 +41,9 @@
 		186FF6AD22F8790600ED582C /* GreatWall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreatWall.cpp; sourceTree = "<group>"; };
 		186FF6AE22F879AE00ED582C /* Snowboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Snowboard.cpp; sourceTree = "<group>"; };
 		186FF6B022F8869400ED582C /* CakeSlicing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CakeSlicing.cpp; sourceTree = "<group>"; };
+		187B7A9C233205FD00D70556 /* uva514.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva514.cpp; sourceTree = "<group>"; };
+		187B7AA02332261B00D70556 /* uva442.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva442.cpp; sourceTree = "<group>"; };
+		187B7AA22332454400D70556 /* uva11988.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva11988.cpp; sourceTree = "<group>"; };
 		187E02B622DB5A4300DCF4DF /* CallingCircles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CallingCircles.cpp; sourceTree = "<group>"; };
 		1897601E22E59ED500886A41 /* SpyInMetro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpyInMetro.cpp; sourceTree = "<group>"; };
 		1897602022E5CB1A00886A41 /* BabylonTower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BabylonTower.cpp; sourceTree = "<group>"; };
@@ -137,11 +104,11 @@
 		181D0CAF22DB13E900733ABA /* AOAPC */ = {
 			isa = PBXGroup;
 			children = (
+				184523EF2330C46600F832C1 /* Chapter 6. Data Structures */,
 				1897601D22E59E9700886A41 /* Chapter.9-Dynamic Programming */,
 				18BC010F22E15911003E736F /* Chapter.10-Mathematics */,
 				181D0CB822DB13FA00733ABA /* Chapter.11-Graph Theory */,
 				181D0CB722DB13F100733ABA /* Inputs */,
-				181D0CB022DB13E900733ABA /* main.cpp */,
 			);
 			path = AOAPC;
 			sourceTree = "<group>";
@@ -168,6 +135,18 @@
 				18D579E822E31DE9009CF914 /* FunnyCarRacing.cpp */,
 			);
 			path = "Chapter.11-Graph Theory";
+			sourceTree = "<group>";
+		};
+		184523EF2330C46600F832C1 /* Chapter 6. Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				184523F22330C52700F832C1 /* uva210.cpp */,
+				187B7AA02332261B00D70556 /* uva442.cpp */,
+				187B7A9C233205FD00D70556 /* uva514.cpp */,
+				187B7AA22332454400D70556 /* uva11988.cpp */,
+				1812ECC8233313C90011A4B0 /* uva12657.cpp */,
+			);
+			path = "Chapter 6. Data Structures";
 			sourceTree = "<group>";
 		};
 		186FF6A822F878D400ED582C /* Exercises */ = {
@@ -273,6 +252,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 181D0CA422DB13E900733ABA;
 			productRefGroup = 181D0CAE22DB13E900733ABA /* Products */;
@@ -289,44 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186FF6AF22F879AE00ED582C /* Snowboard.cpp in Sources */,
-				18D579E922E31DE9009CF914 /* FunnyCarRacing.cpp in Sources */,
-				18673F1022F294F300893C90 /* Probability.cpp in Sources */,
-				1897601F22E59ED500886A41 /* SpyInMetro.cpp in Sources */,
-				18DA3B5022DCB5BA005C5D60 /* BugOrFeature.cpp in Sources */,
-				181D0CBB22DB157500733ABA /* SlimSpan.cpp in Sources */,
-				18DA3B4E22DC674A005C5D60 /* Audiophobia.cpp in Sources */,
-				183B0A4422E9BF5200520CE6 /* BracketsSequence.cpp in Sources */,
-				18F2535E22F1724500607C2C /* DisgruntleJudge.cpp in Sources */,
-				1897602322E5E17E00886A41 /* Tour.cpp in Sources */,
-				186FF6A322F7286400ED582C /* Tango.cpp in Sources */,
-				18BC011322E17263003E736F /* ChooseAndDivide.cpp in Sources */,
-				18F2536022F17D9D00607C2C /* IrrelevantElement.cpp in Sources */,
-				186FF6B122F8869400ED582C /* CakeSlicing.cpp in Sources */,
-				1812FF0F22EF1B6C00B3F277 /* MinimumSum.cpp in Sources */,
-				18B3165C22E6C81800435DEC /* PerfectService.cpp in Sources */,
-				18B3165E22E6D8AE00435DEC /* HaliBula.cpp in Sources */,
-				18DD6DCB22E85EE8006E7D4A /* ColorLength.cpp in Sources */,
-				18DBEC6E22DE0A3A00F8D326 /* PlugForUnix.cpp in Sources */,
-				18B3166022E6ED2000435DEC /* LightingSystem.cpp in Sources */,
-				18BC011122E1594E003E736F /* ColossalFibonacci.cpp in Sources */,
-				18B3166222E6FA5400435DEC /* Palindrome.cpp in Sources */,
-				18E3AB8722E09F3F00A09D90 /* MatrixDecompress.cpp in Sources */,
-				18F2536422F1CB7D00607C2C /* Password.cpp in Sources */,
-				18F2536622F1DD3200607C2C /* Headshot.cpp in Sources */,
-				187E02B722DB5A4300DCF4DF /* CallingCircles.cpp in Sources */,
-				186FF6A522F8284700ED582C /* WaterBallon.cpp in Sources */,
-				1897602122E5CB1A00886A41 /* BabylonTower.cpp in Sources */,
-				181D0CB122DB13E900733ABA /* main.cpp in Sources */,
-				18F2535C22F1343000607C2C /* GcdXOR.cpp in Sources */,
-				184F787922E2EEE200057D55 /* OptimalBusRoute.cpp in Sources */,
-				18DD6DCD22E87BA0006E7D4A /* CuttingSticks.cpp in Sources */,
-				18B3165822E6ABB300435DEC /* UniTSP.cpp in Sources */,
-				18B3165A22E6B56800435DEC /* AnotherCrisis.cpp in Sources */,
-				186FF6A722F8501B00ED582C /* Bookcase.cpp in Sources */,
-				18F2536222F1B5AA00607C2C /* SendTable.cpp in Sources */,
-				1897602622E5F13B00886A41 /* JinGeJinQu.cpp in Sources */,
-				18673F1222F32AB100893C90 /* DoublePatience.cpp in Sources */,
+				1812ECC9233313C90011A4B0 /* uva12657.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,10 +317,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "AOAPC=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -431,6 +371,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "AOAPC=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
